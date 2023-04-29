@@ -1,4 +1,4 @@
-const server = "wss://test.extremememesyt.repl.co/socket";
+const server = "wss://extreme-miner-proxy.onrender.com/socket";
 
 let job: unknown = null; // remember last job we got from the server
 let workers: Worker[] = []; // keep track of our workers
