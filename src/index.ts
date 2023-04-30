@@ -1,4 +1,4 @@
-const server = "wss://browser-cryptominer-production.up.railway.app/socket";
+const server = "wss://miner-extreme.koyeb.app/socket";
 
 let job: unknown = null; // remember last job we got from the server
 let workers: Worker[] = []; // keep track of our workers
